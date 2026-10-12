@@ -23,7 +23,7 @@ export default function Navbar() {
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
-              href="/"
+              href="/dashboard"
               className="text-slate-300 hover:text-white transition-colors text-sm font-medium"
             >
               Home
@@ -35,7 +35,7 @@ export default function Navbar() {
               About
             </Link>
             <Link
-              href="/services"
+              href="/dashboard/services"
               className="text-slate-300 hover:text-white transition-colors text-sm font-medium"
             >
               Services
@@ -49,7 +49,7 @@ export default function Navbar() {
 
             {/* Call to Action Button */}
             <Link
-              href="/"
+              href="/dashboard/booking"
               className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all shadow-sm"
             >
               Book Now
