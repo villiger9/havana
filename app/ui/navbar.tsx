@@ -29,7 +29,7 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="/about"
+              href="/dashboard/about"
               className="text-slate-300 hover:text-white transition-colors text-sm font-medium"
             >
               About
@@ -41,7 +41,7 @@ export default function Navbar() {
               Services
             </Link>
             <Link
-              href="/contact"
+              href="/dashboard/contact"
               className="text-slate-300 hover:text-white transition-colors text-sm font-medium"
             >
               Contact
